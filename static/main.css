@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Share+Tech+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,200&display=swap");
 
 /* Global styles */
 
@@ -9,6 +9,7 @@
   padding: 0;
   box-sizing: inherit;
 }
+
 
 html {
   font-family: "Share Tech Mono", monospace;
@@ -118,7 +119,7 @@ nav {
 }
 
 .profile-pic {
-  height: 9rem;
+  height: 20rem;
   width: auto;
   border-radius: 50%;
   display: block;
@@ -199,9 +200,9 @@ nav {
   background: linear-gradient(
       135deg,
       rgba(0, 64, 77, 0.9) 0%,
-      rgba(0, 0, 0, 0.8) 100%
+      rgba(0, 0, 0, 0.8) 70%
     ),
-    url("images/landing-page.png") center no-repeat;
+    url("images/main_background.jpg") center no-repeat;
   background-size: contain;
   position: relative;
 }
@@ -252,13 +253,14 @@ nav {
   font-size: 4rem;
   margin: 1rem 0;
   color: rgba(249, 105, 14, 1);
+  -webkit-text-fill-color: white;
   background: linear-gradient(
     to right,
-    rgba(249, 105, 14, 1) 0%,
-    rgba(102, 51, 153, 1) 100%
+    rgba(14, 202, 249, 0.459) 0%,
+    rgb(153, 51, 139) 100%
   );
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  
   background-clip: inherit;
 }
 
@@ -318,7 +320,7 @@ nav {
 }
 
 .about-img img {
-  height: 12rem;
+  height: 20rem;
   width: auto;
   border-radius: 50%;
   margin: 2rem;
@@ -403,11 +405,11 @@ hr {
   margin: 2rem 0;
   background: linear-gradient(
     to right,
-    rgba(249, 105, 14, 1) 0%,
-    rgba(102, 51, 153, 1) 100%
+    rgba(14, 202, 249, 0.459) 0%,
+    rgb(153, 51, 139) 100%
   );
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: white;
   background-clip: inherit;
 }
 
@@ -449,11 +451,11 @@ hr {
   margin: 2rem 0;
   background: linear-gradient(
     to right,
-    rgba(249, 105, 14, 1) 0%,
-    rgba(102, 51, 153, 1) 100%
+    rgba(14, 202, 249, 0.459) 0%,
+    rgb(153, 51, 139) 100%
   );
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: white;
   background-clip: inherit;
 }
 
